@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "Saarthi Suraksha",
+    "tagline": "Your Saarthi, Your Suraksha"
+  },
+  "landing": {
+    "hero": {
+      "title": "Your Saarthi, Your Suraksha",
+      "subtitle": "Smart monitoring, instant response, and peace of mind for tourists.",
+      "cta_tourist": "Launch Tourist App",
+      "cta_dashboard": "Open Dashboard"
+    },
+    "features": {
+      "sos": {
+        "title": "Emergency SOS",
+        "desc": "Instant panic alerts with location tracking"
+      },
+      "replay": {
+        "title": "Incident Replay",
+        "desc": "Timeline-based location history analysis"
+      },
+      "explorer": {
+        "title": "Must-Visit Explorer",
+        "desc": "Discover local gems with smart recommendations"
+      }
+    }
+  },
+  "tourist": {
+    "welcome": "Welcome, Tourist",
+    "trip_id": "Verified Trip ID",
+    "safety_score": "Safety Score",
+    "panic_button": "PANIC",
+    "silent_sos": "Silent SOS",
+    "whistle_sos": "Whistle/Clap SOS",
+    "fake_call": "Fake Call Mode",
+    "family_share": "Family Share",
+    "create_share_link": "Create Share Link",
+    "explorer": "Must-Visit Explorer"
+  },
+  "dashboard": {
+    "title": "Authority Dashboard",
+    "alerts": "Active Alerts",
+    "map": "Live Map",
+    "incident_replay": "Incident Replay",
+    "generate_efir": "Generate E-FIR",
+    "predictive": "Predictive Analytics"
+  },
+  "common": {
+    "back": "Back",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel"
+  }
+}

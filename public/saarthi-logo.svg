@@ -1,0 +1,63 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Main gradient background -->
+    <radialGradient id="mainGradient" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0%" stop-color="#4A90A4"/>
+      <stop offset="50%" stop-color="#7B68B3"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </radialGradient>
+    
+    <!-- Network pattern gradient -->
+    <linearGradient id="networkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circular background -->
+  <circle cx="60" cy="60" r="58" fill="url(#mainGradient)" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Network nodes around the perimeter -->
+  <g stroke="url(#networkGradient)" stroke-width="1.5" fill="none" opacity="0.7">
+    <!-- Outer network ring -->
+    <circle cx="60" cy="15" r="2" fill="#22D3EE"/>
+    <circle cx="85" cy="25" r="2" fill="#A78BFA"/>
+    <circle cx="105" cy="60" r="2" fill="#F97316"/>
+    <circle cx="85" cy="95" r="2" fill="#22D3EE"/>
+    <circle cx="60" cy="105" r="2" fill="#A78BFA"/>
+    <circle cx="35" cy="95" r="2" fill="#F97316"/>
+    <circle cx="15" cy="60" r="2" fill="#22D3EE"/>
+    <circle cx="35" cy="25" r="2" fill="#A78BFA"/>
+    
+    <!-- Connection lines -->
+    <path d="M60,15 L85,25 M85,25 L105,60 M105,60 L85,95 M85,95 L60,105 M60,105 L35,95 M35,95 L15,60 M15,60 L35,25 M35,25 L60,15"/>
+    
+    <!-- Inner connecting lines -->
+    <path d="M45,35 L75,35 M75,35 L85,60 M85,60 L75,85 M75,85 L45,85 M45,85 L35,60 M35,60 L45,35"/>
+  </g>
+  
+  <!-- Curved road paths -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9">
+    <path d="M25,70 Q45,50 65,70 Q85,90 95,70"/>
+    <path d="M30,75 Q50,55 70,75"/>
+    <path d="M35,80 Q55,60 75,80"/>
+  </g>
+  
+  <!-- Central location pin -->
+  <g transform="translate(60, 60)">
+    <circle cx="0" cy="-5" r="8" fill="#FFFFFF" stroke="#1E40AF" stroke-width="2"/>
+    <circle cx="0" cy="-5" r="3" fill="#1E40AF"/>
+    <path d="M0,-13 L0,0" stroke="#1E40AF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Subtle data points -->
+  <g fill="#FFFFFF" opacity="0.6">
+    <circle cx="40" cy="40" r="1"/>
+    <circle cx="80" cy="40" r="1"/>
+    <circle cx="70" cy="30" r="1"/>
+    <circle cx="50" cy="30" r="1"/>
+    <circle cx="40" cy="80" r="1"/>
+    <circle cx="80" cy="80" r="1"/>
+  </g>
+</svg>

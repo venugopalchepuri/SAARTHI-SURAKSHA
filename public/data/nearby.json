@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ps-1",
+    "name": "Knowledge Park Police Station",
+    "type": "police",
+    "lat": 28.449,
+    "lng": 77.579,
+    "distance": 0.8,
+    "phone": "+91-120-2345678"
+  },
+  {
+    "id": "ps-2", 
+    "name": "Pari Chowk Police Station",
+    "type": "police",
+    "lat": 28.474,
+    "lng": 77.507,
+    "distance": 2.1,
+    "phone": "+91-120-2345679"
+  },
+  {
+    "id": "hospital-1",
+    "name": "Kailash Hospital",
+    "type": "hospital",
+    "lat": 28.458,
+    "lng": 77.591,
+    "distance": 1.2,
+    "phone": "+91-120-4567890"
+  },
+  {
+    "id": "hospital-2",
+    "name": "Felix Hospital",
+    "type": "hospital", 
+    "lat": 28.472,
+    "lng": 77.505,
+    "distance": 2.5,
+    "phone": "+91-120-6677888"
+  },
+  {
+    "id": "hospital-3",
+    "name": "Yatharth Super Specialty Hospital",
+    "type": "hospital",
+    "lat": 28.463,
+    "lng": 77.516,
+    "distance": 3.1,
+    "phone": "+91-120-4618800"
+  }
+]

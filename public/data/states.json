@@ -1,0 +1,170 @@
+[
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "image": "src/images/rajastan.png",
+    "monuments": [
+      {
+        "name": "Hawa Mahal",
+        "location": { "lat": 26.9239, "lng": 75.8267 },
+        "image":"src/images/hawa mahal.png",
+        "info": "The iconic 'Palace of Winds' in Jaipur, featuring 953 small windows and stunning pink sandstone architecture from 1799.",
+        "eco": false
+      },
+      {
+        "name": "Amber Fort",
+        "location": { "lat": 26.9855, "lng": 75.8513 },
+        "image": "src/images/amber fort.png",
+        "info": "A magnificent hilltop fortress overlooking Maota Lake, known for its artistic Hindu style elements and mirror work.",
+        "eco": false
+      }
+    ]
+  },
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "image": "src/images/kerela.png",
+    "monuments": [
+      {
+        "name": "Mattancherry Palace",
+        "location": { "lat": 9.9577, "lng": 76.2673 },
+        "image": "src/images/mattachary swmany.png",
+        "info": "Also known as Dutch Palace, featuring beautiful murals depicting scenes from the Ramayana and Mahabharata.",
+        "eco": false
+      },
+      {
+        "name": "Padmanabhaswamy Temple",
+        "location": { "lat": 8.4831, "lng": 76.9496 },
+        "image": "src/images/padmanabhaswamy.png",
+        "info": "A magnificent temple dedicated to Lord Vishnu, renowned for its Dravidian architecture and historical significance.",
+        "eco": false
+      }
+    ]
+  },
+  {
+    "id": "uttarakhand",
+    "name": "Uttarakhand",
+    "image": "src/images/uttarkhand.png",
+    "monuments": [
+      {
+        "name": "Valley of Flowers",
+        "location": { "lat": 30.7268, "lng": 79.6009 },
+        "image": "src/images/valley of flowers.png",
+        "info": "A UNESCO World Heritage Site, this alpine valley blooms with rare and exotic flowers during monsoon season.",
+        "eco": true
+      },
+      {
+        "name": "Kedarnath Temple",
+        "location": { "lat": 30.7346, "lng": 79.0669 },
+        "image": "src/images/kedarnath.png",
+        "info": "One of the twelve Jyotirlingas, located at 3,583m altitude in the Garhwal Himalayan range.",
+        "eco": true
+      }
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "image": "src/images/goa.png",
+    "monuments": [
+      {
+        "name": "Basilica of Bom Jesus",
+        "location": { "lat": 15.5008, "lng": 73.9115 },
+        "image": "src/images/basicilla.png",
+        "info": "A UNESCO World Heritage Site, this 16th-century church houses the sacred relics of St. Francis Xavier.",
+        "eco": false
+      },
+      {
+        "name": "Se Cathedral",
+        "location": { "lat": 15.5005, "lng": 73.9117 },
+        "image": "src/images/se cathedral.jpeg",
+        "info": "The largest church in Asia, built in Portuguese-Manueline architectural style with a golden bell known as 'Golden Bell'.",
+        "eco": false
+      }
+    ]
+  },
+  {
+    "id": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "image": "src/images/tamilnadu.png",
+    "monuments": [
+      {
+        "name": "Brihadeeswarar Temple",
+        "location": { "lat": 10.7820, "lng": 79.1317 },
+        "image": "src/images/brihadeeswara.png",
+        "info": "A UNESCO World Heritage Site in Thanjavur, this 1000-year-old temple is a masterpiece of Dravidian architecture.",
+        "eco": false
+      },
+      {
+        "name": "Mahabalipuram",
+        "location": { "lat": 12.6208, "lng": 80.1982 },
+        "image": "src/images/mahabalipuram.png",
+        "info": "A UNESCO World Heritage Site featuring ancient rock-cut temples and sculptures dating back to the 7th century.",
+        "eco": false
+      }
+    ]
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim",
+    "image": "src/images/sikkim.png",
+    "monuments": [
+      {
+        "name": "Rumtek Monastery",
+        "location": { "lat": 27.3061, "lng": 88.5562 },
+        "image": "src/images/rumtek.png",
+        "info": "One of the most significant monasteries in Sikkim, known for its stunning architecture and Buddhist relics.",
+        "eco": true
+      },
+      {
+        "name": "Pemayangtse Monastery",
+        "location": { "lat": 27.2111, "lng": 88.2489 },
+        "image": "src/images/pangst.png",
+        "info": "A 300-year-old monastery with rich history, offering panoramic views of the Himalayas.",
+        "eco": true
+      }
+    ]
+  },
+  {
+    "id": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "image": "src/images/himachal.png",
+    "monuments": [
+      {
+        "name": "Shimla Christ Church",
+        "location": { "lat": 31.1048, "lng": 77.1734 },
+        "image": "src/images/church.png",
+        "info": "A neo-Gothic church built in 1857, featuring beautiful stained glass windows representing faith, hope, charity, and patience.",
+        "eco": false
+      },
+      {
+        "name": "Hidimba Devi Temple",
+        "location": { "lat": 32.2396, "lng": 77.1887 },
+        "image": "src/images/hidimba temple.png",
+        "info": "An ancient cave temple in Manali dedicated to Hidimbi Devi, surrounded by a cedar forest and featuring unique pagoda-style architecture.",
+        "eco": true
+      }
+    ]
+  },
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "image": "src/images/maharastra.png",
+    "monuments": [
+      {
+        "name": "Ajanta Caves",
+        "location": { "lat": 20.5545, "lng": 75.7031 },
+        "image": "src/images/ajanta.png",
+        "info": "UNESCO World Heritage Site with 30 rock-cut caves featuring ancient Buddhist paintings and sculptures from the 2nd century BCE.",
+        "eco": false
+      },
+      {
+        "name": "Ellora Caves",
+        "location": { "lat": 20.0269, "lng": 75.1795 },
+        "image": "src/images/ellora.png",
+        "info": "A UNESCO World Heritage Site with 34 caves representing Buddhist, Hindu, and Jain temples carved from rock between the 6th-10th centuries.",
+        "eco": false
+      }
+    ]
+  }
+]
