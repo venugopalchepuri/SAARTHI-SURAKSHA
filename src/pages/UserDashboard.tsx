@@ -38,7 +38,6 @@ import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import { useAppStore } from '../lib/store'
 import { toast } from '../hooks/useToast'
-import Logo from "../components/Logo";
 
 interface Trip {
   id: string
@@ -305,7 +304,7 @@ export const UserDashboard: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-              <Logo size={35} className="text-white" />
+              <Shield size={24} className="text-white" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">Saarthi Suraksha</h1>
@@ -395,7 +394,7 @@ export const UserDashboard: React.FC = () => {
               className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-3xl p-6 shadow-2xl"
             >
               <h3 className="font-bold text-white mb-6 flex items-center gap-2 text-xl">
-                <Logo size={50} className="text-orange-400" />
+                <Shield size={24} className="text-orange-400" />
                 Digital Travel ID
               </h3>
               {activeTrip ? (
@@ -453,9 +452,14 @@ export const UserDashboard: React.FC = () => {
                 </div>
               ) : (
                 <div className="text-center py-16">
-                  <div className="w-24 h-24 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl">
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={() => setShowTripForm(true)}
+                    className="w-24 h-24 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl cursor-pointer hover:shadow-3xl transition-all duration-300"
+                  >
                     <Plus size={32} className="text-white" />
-                  </div>
+                  </motion.div>
                   <h4 className="text-white font-bold text-xl mb-3">Ready for Adventure?</h4>
                   <p className="text-white mb-8 text-lg leading-relaxed font-bold">
                     Create your safe journey and get your<br/>

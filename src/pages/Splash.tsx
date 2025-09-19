@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import Logo from "../components/Logo";
+import SaarthiLogo from "../images/saarthi logo.png"; // your logo file
 
 export const Splash: React.FC = () => {
   const navigate = useNavigate()
@@ -69,18 +70,21 @@ export const Splash: React.FC = () => {
               ]
             }}
             transition={{ duration: 3, repeat: Infinity }}
-            className="relative bg-white rounded-full p-8 shadow-2xl"
+            /* ⬇️ Subtle white circle (almost invisible), thin ring, smaller padding */
+            className="relative rounded-full w-28 h-28 md:w-32 md:h-32 p-2 md:p-3 shadow-lg flex items-center justify-center bg-white/5 ring-2 ring-white/40 backdrop-blur-[1px]"
           >
             <img 
-              src="/saarthi-logo.svg" 
+              src={SaarthiLogo} 
               alt="Saarthi Suraksha" 
-              className="w-20 h-20"
+              /* ⬇️ Keep logo large so it stands out */
+              className="w-24 h-24 md:w-28 md:h-28"
               onError={(e) => {
                 e.currentTarget.style.display = 'none'
                 e.currentTarget.nextElementSibling?.removeAttribute('style')
               }}
             />
-            <Logo size={80} className="mx-auto hidden" />
+            {/* Fallback component (hidden unless image fails) */}
+            <Logo size={120} className="mx-auto hidden" />
           </motion.div>
         </div>
       </motion.div>
